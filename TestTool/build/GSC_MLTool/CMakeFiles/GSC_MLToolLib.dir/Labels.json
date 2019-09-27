@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GSC_MLTool/GSC_MLTool.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GSC_MLTool/GSC_MLToolDict.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GSC_MLTool/IGSC_MLTool.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/Root/GSC_MLTool.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GSC_MLTool"
+		],
+		"name" : "GSC_MLToolLib"
+	}
+}

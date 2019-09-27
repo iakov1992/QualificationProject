@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/x86_64-centos7-gcc8-opt/include/GSC_MLTool"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/x86_64-centos7-gcc8-opt/include/GSC_MLTool.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GSC_MLTool"
+		],
+		"name" : "GSC_MLToolHeaderInstall"
+	}
+}

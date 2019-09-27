@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/x86_64-centos7-gcc8-opt/data/GSC_MLTool/neural_net.json"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/share/neural_net.json"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/x86_64-centos7-gcc8-opt/data/GSC_MLTool/neural_net.json.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GSC_MLTool"
+		],
+		"name" : "GSC_MLToolDataInstall"
+	}
+}

@@ -1,0 +1,5 @@
+# Target labels
+ GSC_MLTool
+# Source files and their labels
+/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/x86_64-centos7-gcc8-opt/include/GSC_MLTool
+/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/x86_64-centos7-gcc8-opt/include/GSC_MLTool.rule

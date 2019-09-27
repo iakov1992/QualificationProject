@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/MyAnalysis/CMakeFiles/MyAnalysisDictDictGen"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/MyAnalysis/CMakeFiles/MyAnalysisDictDictGen.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/MyAnalysis/CMakeFiles/MyAnalysisDict.dsomap.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyAnalysis"
+		],
+		"name" : "MyAnalysisDictDictGen"
+	}
+}

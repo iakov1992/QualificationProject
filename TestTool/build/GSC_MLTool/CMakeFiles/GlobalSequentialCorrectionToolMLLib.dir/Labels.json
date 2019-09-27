@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GlobalSequentialCorrectionToolML/GlobalSequentialCorrectionToolML.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GlobalSequentialCorrectionToolML/GlobalSequentialCorrectionToolMLDict.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/Root/JetCalibToolML.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GlobalSequentialCorrectionToolML"
+		],
+		"name" : "GlobalSequentialCorrectionToolMLLib"
+	}
+}

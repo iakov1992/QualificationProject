@@ -1,0 +1,6 @@
+# Target labels
+ GlobalSequentialCorrectionToolML
+# Source files and their labels
+/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GlobalSequentialCorrectionToolML/GlobalSequentialCorrectionToolML.h
+/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GlobalSequentialCorrectionToolML/GlobalSequentialCorrectionToolMLDict.h
+/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/Root/JetCalibToolML.cxx

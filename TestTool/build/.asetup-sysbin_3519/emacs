@@ -1,0 +1,50 @@
+#!/bin/bash
+
+ld_so_file=/lib64/ld-linux-x86-64.so.2
+ld_lib_path=/usr/lib64
+ld_so_cmd="$ld_so_file --library-path $ld_lib_path"
+
+myPath="${BASH_SOURCE:-$0}"
+myName=${myPath##*/}
+
+get_cmd_path() {
+  cmd=$1
+  ret_path="0"
+  # cmd_paths=$(\type -a $cmd 2>/dev/null | \sed -n "s#^$cmd is /#/#p")
+  cmd_paths=$(\type -a $cmd 2>/dev/null)
+  if [[ $? != 0 ]]; then
+     \echo $ret_path
+     return 1
+  fi
+  while read -r cmd_path; do
+     [[ $cmd_path == "$cmd is a"* ]] && continue
+     cmd_path=${cmd_path#${cmd} is }
+     [[ $cmd_path -ef $myPath ]] && continue
+
+     # check if the file is a LSB executable/object (not a script/shared library)
+     cmd_file=$(\file -L $cmd_path)
+     if [[ $cmd_file =~ (LSB executable|LSB shared object) ]]; then
+        \echo $cmd_path
+        return 0
+     elif [[ $ret_path == "0" ]]; then
+        ret_path=$cmd_path
+     fi
+  done <<< "$cmd_paths"
+  \echo $ret_path
+  return 1
+}
+
+type setopt >/dev/null 2>&1 && setopt shwordsplit
+cmd_path=$(get_cmd_path $myName)
+ret=$?
+if [[ $cmd_path == "0" ]]; then
+   echo "!!Error!! no system command $myName is not found"
+   exit 1
+elif [ $ret -eq 0 -a -f $ld_so_file -a -d $ld_lib_path ]; then
+   $ld_so_cmd $cmd_path "${@:1}"
+   exit $?
+else
+  env -u LD_LIBRARY_PATH $cmd_path "${@:1}"
+  exit $?
+fi
+

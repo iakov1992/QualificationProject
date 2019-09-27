@@ -1,0 +1,4 @@
+[ libGlobalSequentialCorrectionToolMLDict.so ]
+# List of selected classes
+class GlobalSequentialCorrectionToolML
+header GlobalSequentialCorrectionToolML.h

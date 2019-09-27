@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/GSC_MLTool/CMakeFiles/GSC_MLToolDictDictGen"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/GSC_MLTool/CMakeFiles/GSC_MLToolDictDictGen.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/GSC_MLTool/CMakeFiles/GSC_MLToolDict.dsomap.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GSC_MLTool"
+		],
+		"name" : "GSC_MLToolDictDictGen"
+	}
+}

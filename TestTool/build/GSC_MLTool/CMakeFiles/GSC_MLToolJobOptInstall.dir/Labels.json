@@ -1,0 +1,11 @@
+{
+	"sources" : [],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GSC_MLTool"
+		],
+		"name" : "GSC_MLToolJobOptInstall"
+	}
+}

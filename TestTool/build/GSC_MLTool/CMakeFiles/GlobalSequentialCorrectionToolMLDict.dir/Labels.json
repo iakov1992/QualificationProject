@@ -1,0 +1,26 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/GSC_MLTool/CMakeFiles/GlobalSequentialCorrectionToolMLDictReflexDict.cxx",
+			"labels" : 
+			[
+				"GlobalSequentialCorrectionToolML"
+			]
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GlobalSequentialCorrectionToolML/GlobalSequentialCorrectionToolMLDict.h"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GlobalSequentialCorrectionToolML/selection.xml"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GlobalSequentialCorrectionToolML"
+		],
+		"name" : "GlobalSequentialCorrectionToolMLDict"
+	}
+}

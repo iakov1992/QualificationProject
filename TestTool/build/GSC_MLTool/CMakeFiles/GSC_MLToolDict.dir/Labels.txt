@@ -1,0 +1,7 @@
+# Target labels
+ GSC_MLTool
+# Source files and their labels
+/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/GSC_MLTool/CMakeFiles/GSC_MLToolDictReflexDict.cxx
+ GSC_MLTool
+/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GSC_MLTool/GSC_MLToolDict.h
+/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/source/GSC_MLTool/GSC_MLTool/selection.xml

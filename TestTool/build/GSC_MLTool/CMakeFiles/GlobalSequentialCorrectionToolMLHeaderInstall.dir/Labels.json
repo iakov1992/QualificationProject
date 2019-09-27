@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/x86_64-centos7-gcc8-opt/include/GlobalSequentialCorrectionToolML"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/x86_64-centos7-gcc8-opt/include/GlobalSequentialCorrectionToolML.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GlobalSequentialCorrectionToolML"
+		],
+		"name" : "GlobalSequentialCorrectionToolMLHeaderInstall"
+	}
+}

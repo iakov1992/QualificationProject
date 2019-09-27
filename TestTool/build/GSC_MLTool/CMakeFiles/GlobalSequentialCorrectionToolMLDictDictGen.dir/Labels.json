@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/GSC_MLTool/CMakeFiles/GlobalSequentialCorrectionToolMLDictDictGen"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/GSC_MLTool/CMakeFiles/GlobalSequentialCorrectionToolMLDictDictGen.rule"
+		},
+		{
+			"file" : "/afs/cern.ch/user/i/iaizenbe/QualificationTask/TestTool/build/GSC_MLTool/CMakeFiles/GlobalSequentialCorrectionToolMLDict.dsomap.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GlobalSequentialCorrectionToolML"
+		],
+		"name" : "GlobalSequentialCorrectionToolMLDictDictGen"
+	}
+}
